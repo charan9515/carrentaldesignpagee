@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#container{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+
+}
+#dash{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 106, 255, 0.3);
+    position: sticky;
+   
+}
+#dash-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* justify-content: flex-end; */
+   margin-left: 1000px;
+   font-size: 25px;
+   
+
+}
+#dash-inner ul{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    margin-left: 60px;
+    /* margin-top: ; */
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+    bottom: 18px;
+}
+.icons:hover{
+    transform: scale(1.15);
+}
+#dash p{
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 600;
+    position: relative;
+    top: 5px;
+    color: black;
+}
+#search{
+    height: 50px;
+    width: 65%;
+    margin-top: 40px;
+    margin-left: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    position: absolute;
+    /* box-shadow: 0px 0px 10px rgb(0, 0, 0,0.6);
+    transition: transform 0.4s ease-in-out; */
+}
+#search:hover{
+    transform: scale(1.1);
+}
+#search input{
+    padding: 10px 15px;
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search{
+    position: relative;
+    left: 270px;
+    top: 2px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+.search:hover{
+    transform: scale(1.15);
+    color: rgb(0, 166, 255);
+}
+
+#cars{
+    height: 450px;
+    width: 70%;
+    /* border: 1px solid black; */
+    border-radius: 9px;
+    margin-top: 190px;
+    margin-left: 190px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    /* margin-right: 10px; */
+    /* box-shadow: 0px 0px 9px rgb(0, 0, 0,0.7); */
+    
+
+}
+#car-blocks{
+    min-height: 300px;
+    min-width: 250px;
+    border-radius: 8px;
+    margin-left: 50px;  
+    transition: transform 0.5s ease-in-out,box-shadow 0.5s;
+   
+}
+#layer{
+    height: 100%;
+    width: 100%;
+    
+    transition: height 0.4s;
+}
+
+
+#car-blocks:hover{
+    transform: scale(1.1);
+    /* box-shadow: 0px 0px 10px rgb(0, 0, 0,0.6); */
+}
+#car-blocks:nth-child(6){
+    margin-right: 18px;
+}
+#img1{
+   height: 300px;
+   width: 250px;
+   background-image: url('https://www.team-bhp.com/carpics/MarutiSwift/MarutiSwift/m/exterior/maruti-swift-18.jpg');
+   background-size: cover;
+   border-radius: 8px;
+   /* position: absolute; */
+   
+}
+#img2{
+    height: 300px;
+    width: 250px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9U1pcfQYpbwgPg_6BfJwXp2YJ9Gwpeb_SNt26fp5H_NFbDo66XPJI3Lu8gTudI7YqPTg&usqp=CAU');
+    background-size: cover;
+    border-radius: 8px;
+    
+ }
+ #img3{
+    height: 300px;
+    width: 250px;
+    background-image: url('https://www.cartoq.com/wp-content/uploads/2018/04/Swift-2.jpg');
+    background-size: cover;
+    border-radius: 8px;
+    
+ }
+ #img4{
+    height: 300px;
+    width: 250px;
+    background-image: url('https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/News/Buying-Used-Swift-2.jpg&c=0');
+    background-size: cover;
+    border-radius: 8px;
+    
+ }
+ #img5{
+    height: 300px;
+    width: 250px;
+    background-image: url('https://sbimotor.com/uploads/car/images/127888/3533105_big_9c6c146b.jpg');
+    background-size: cover;
+    border-radius: 8px;
+    
+ }
+ #img6{
+    height: 300px;
+    width: 250px;
+    background-image: url('https://fastly-production.24c.in/hello-ar/dev/uploads/643154c6b5cd46d7719f78f3/637f6844-5637-44e9-b130-751db2e96443/slot/119636-3.JPG?w=690&auto=format');
+    background-size: cover;
+    border-radius: 8px;
+ }
+
+ #place-cont{
+    height: 700px;
+    width: 65%;
+    
+    margin-top: 70px;
+    margin-left: 240px;
+ }
+ #place-cont h2{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 220px;
+ }
+ #block-cont{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+ }
+ 
+
+ #blocks1{
+    min-height: 250px;
+    min-width: 230px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-image: url('https://cdn.britannica.com/31/1631-050-23506727/vegetation-waterways-state-Kerala-India.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #blocks1::after{
+    content: "kerla";
+    font-size: 40px;
+    color: white;
+ }
+
+ #blocks2{
+    min-height: 250px;
+    min-width: 230px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-image: url('https://cdn.britannica.com/77/22877-050-9EFB35D4/Charminar-city-Hyderabad-India-Telangana.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #blocks2::after{
+    content: "Hyderabad";
+    font-size: 40px;
+    color: white;
+ }
+ #blocks3{
+    min-height: 250px;
+    min-width: 230px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-image: url('https://cdn.britannica.com/13/100813-050-708D93FE/Kapaleeswarar-temple-Hindu-Mylapore-Chennai-India-Tamil.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #blocks3::after{
+    content: "Chennai";
+    font-size: 40px;
+    color: white;
+ }
+ #blocks4{
+    min-height: 250px;
+    min-width: 230px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-image: url('https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/12/01/bengaluru-airport-1-1054944-1637975362-1142871-1662499237-1167499-1669915237.jpg?itok=BpEBmaRE');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #blocks4::after{
+    content: "Bengaluru";
+    font-size: 40px;
+    color: white;
+ }
+ #blocks5{
+    min-height: 250px;
+    min-width: 230px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-image: url('https://curlytales.com/wp-content/uploads/2023/02/Andhra-Pradesh-1170x658.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #blocks5::after{
+    content: "Tiruati";
+    font-size: 40px;
+    color: rgb(0, 0, 0,0.9);
+ }
+ #blocks6{
+    min-height: 250px;
+    min-width: 230px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzi0WpyMmrFVv3d7mb037AuQRNlmx7WbtU9w&usqp=CAU');
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #blocks6::after{
+    content: "Goa";
+    font-size: 40px;
+    color: white;
+    
+ }
+
+
+
+ #price{
+        margin-top: 16px;
+        font-size: 20px;  
+        margin-bottom: 10px;  
+ }
+ #price p{
+    margin-left: 20px;
+ }
+ #price p button{
+    margin-left: 30px;
+    font-size: 17px;
+    padding: 4px 7px;
+    background-color: white;
+    border-color: rgba(4, 72, 123, 0.5);
+    border-radius: 8px;
+    transition: transform 0.5s,background-color 0.5s,border 0.5s;
+ }
+ #price p button:hover{
+    transform: scale(1.1);
+    background-color: rgba(4, 72, 123, 0.5);
+    border: none;
+ }

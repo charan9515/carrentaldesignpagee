@@ -1,0 +1,64 @@
+.heading h2{
+  
+    font-weight: 650;
+    margin-left: 450px;
+}
+.details{
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ .details h3{
+    margin-top: 30px;
+    margin-right: 380px;
+ }
+.details input{
+    /* margin-top: 20px; */
+    font-size: 20px;
+    padding: 7px 0px;
+    width: 500px;
+    
+}
+.personal-info{
+    display: flex;
+    
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 40px;
+}
+.personal-info label{
+    font-size: 20px;
+    font-weight:medium;
+    margin-bottom: 10px;
+}
+.personal-info input{
+    width: 500px;
+    height: 30px;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+}
+.personal-info h1{
+    text-decoration: underline;
+}
+.personal-info input[type]{
+    font-size: 20px;
+}
+.btn{
+    width: 100px;
+    margin-left: 60px;
+    
+}
+.filters{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.range{
+    margin-left: 50px;
+}
+.range h2{
+    text-decoration: underline;
+}
